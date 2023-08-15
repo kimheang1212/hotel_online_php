@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">Heang Hotel</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,16 +31,16 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Rooms</a> <!-- បន្ទប់ -->
+          <a class="nav-link active mb-2" href="#">Rooms</a> <!-- បន្ទប់ -->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Facilities</a><!-- គ្រឿងបរិក្ខារ -->
+          <a class="nav-link mb-2" href="#">Facilities</a><!-- គ្រឿងបរិក្ខារ -->
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contanct Us</a>
+          <a class="nav-link mb-2" href="#">Contanct Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link mb-2" href="#">About</a>
         </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,11 +59,36 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+        <button class="btn btn-outline-success" type="submit">Search</button><!-- ប៊ុតុងស្វែងរក -->
+        
+        <button type="button" class="btn btn-outline-dark shadow-none me-lg-2 me-3" data-bs-toggle="modal" data-bs-target="#loginModel">
+         Login  <!-- ប៊ុតុងចូលប្រើប្រាស់ -->
+        </form>
+      </button>
     </div>
   </div>
 </nav>
+
+<div class="modal fade" id="loginModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModelLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form action=""></form>
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginModelLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+Scroll
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
