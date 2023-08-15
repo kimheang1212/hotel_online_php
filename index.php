@@ -6,8 +6,9 @@
     <title>Heang Hotel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 <style>
 *{
     font-family: 'Noto Serif Khmer', serif;
@@ -75,18 +76,37 @@
 
       <form action="">
       <div class="modal-header">
-        <h5 class="modal-title">
-         <i class="bi bi-person-circle"></i> User Login <!-- ឈ្មោះផ្ទាំងចូលប្រើប្រាស់ -->
+        <h5 class="modal-title-title d-flex aling-items-center">
+          <i class="bi bi-person-circle fs-3 me-2"></i>
+          User Login <!-- ឈ្មោះផ្ទាំងចូលប្រើប្រាស់ -->
         </h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <!--ផ្អាំងបញ្ចូល email-->
+      <div class="mb-3">
+        <label class="form-label">Email address</label>
+        <input type="email" class="form-control shadow-none">
+        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+        </div> 
+
+        <!--ផ្អាំងបញ្ចូល pasword-->
+        <div class="mb-4">
+        <label class="form-label">Password</label>
+        <input type="Password" class="form-control shadow-none">
+        </div>
+
+        <div class="d-flex aling-items-center justify-content-between mb-2">
+        <button type"submit" class="btn btn-dark shadow-none">LOGIN</button>
+        <a href="javascript: void(0)" class="text-secondary text-decoration-none"> Forgot Password?</a>
       </div>
-      <div class="modal-footer">
+
+
+      </div>
+      <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Understood</button>
-      </div>
+      </div> -->
       </form>
 
     </div>
