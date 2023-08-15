@@ -72,9 +72,12 @@
 <div class="modal fade" id="loginModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModelLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <form action=""></form>
+
+      <form action="">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="loginModelLabel">Modal title</h1>
+        <h5 class="modal-title">
+         <i class="bi bi-person-circle"></i> User Login <!-- ឈ្មោះផ្ទាំងចូលប្រើប្រាស់ -->
+        </h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -84,6 +87,8 @@
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Understood</button>
       </div>
+      </form>
+
     </div>
   </div>
 </div>
