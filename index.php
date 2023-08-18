@@ -60,10 +60,13 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button><!-- ប៊ុតុងស្វែងរក -->
+        <button class="btn btn-outline-success me-lg-2 me-3" type="submit">Search</button><!-- ប៊ុតុងស្វែងរក -->
         
         <button type="button" class="btn btn-outline-dark shadow-none me-lg-2 me-3" data-bs-toggle="modal" data-bs-target="#loginModel">
          Login  <!-- ប៊ុតុងចូលប្រើប្រាស់ -->
+         <button type="button" class="btn btn-outline-dark shadow-none me-lg-2 me-2" data-bs-toggle="modal" data-bs-target="#registerModel">
+         Register  <!-- ប៊ុតុងចុះឈ្មោះ -->
+        </button>
         </form>
       </button>
     </div>
@@ -71,6 +74,7 @@
 </nav>
 
 <div class="modal fade" id="loginModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModelLabel" aria-hidden="true">
+<div class="modal fade" id="registerModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModelLabel" aria-hidden="true"></div>
   <div class="modal-dialog">
     <div class="modal-content">
 
@@ -90,7 +94,7 @@
         <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
         </div> 
 
-        <!--ផ្អាំងបញ្ចូល pasword-->
+        <!--ផ្អាំងបញ្ចូល password-->
         <div class="mb-4">
         <label class="form-label">Password</label>
         <input type="Password" class="form-control shadow-none">
@@ -112,7 +116,7 @@
     </div>
   </div>
 </div>
-Scroll
+
 
 
 
