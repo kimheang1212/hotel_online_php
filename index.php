@@ -104,7 +104,7 @@
         <button type"submit" class="btn btn-dark shadow-none">LOGIN</button>
         <a href="javascript: void(0)" class="text-secondary text-decoration-none"> Forgot Password?</a>
       </div>
-      សួស្តីប្រុសស្អាត
+      សួស្តីស្រីស្អាត
       </div>
       <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
